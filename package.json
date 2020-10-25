@@ -1,0 +1,12 @@
+{
+  "name": "enphase.scraper",
+  "version": "1.0.0",
+  "description": "Scrapes enphase productoin data",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^3.3.3",
+    "yargs": "^16.1.0"
+  }
+}
