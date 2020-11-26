@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "build": "docker build"
+  },
   "dependencies": {
     "winston": "^3.3.3",
     "yargs": "^16.1.0"
