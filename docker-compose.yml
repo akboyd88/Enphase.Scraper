@@ -10,7 +10,8 @@ services:
     image: enphasescraper:latest
     container_name: enphasescraper
     restart: unless-stopped
-    expose: 9094
+    expose: 
+      - 9094
     networks:
       - monitor-net
     labels:
